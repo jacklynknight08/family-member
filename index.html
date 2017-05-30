@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Family Members Exercise</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="lib/node_modules/materialize-css/dist/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<h1>My Family</h1>
+		<div class="container row">
+	 		<div id="add-member" class="col s6">
+          		<label for="first_name">Name</label>
+	 			<input placeholder="Enter Name" id="name" type="text" class="validate">
+	 			<label for="first_name">Age</label>
+	 			<input placeholder="Enter Age" id="age" type="text" class="validate">
+	 			<label for="first_name">Gender</label>
+	 			<input placeholder="Male or Female" id="gender" type="text" class="validate">
+	 			<label for="textarea1">Enter Skills</label>
+	 			<textarea placeholder="1st Skill" id="textarea1" class="materialize-textarea"></textarea>
+	 			<textarea placeholder="2nd Skill" id="textarea2" class="materialize-textarea"></textarea>
+	 			<textarea placeholder="3rd Skill" id="textarea3" class="materialize-textarea"></textarea>
+	 			<textarea placeholder="4th Skill" id="textarea4" class="materialize-textarea"></textarea>
+	 			<a class="waves-effect waves-light btn submitBtn reset" id="submit">Submit</a>
+          	</div>
+	 		<div id="list-family" class="col s6"></div>
+	 	</div>
+
+	<script src="lib/node_modules/jquery/dist/jquery.js"></script>
+	<script type='text/javascript' src='dist/app.js'></script>
+</body>
+</html>
